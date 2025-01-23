@@ -13,11 +13,8 @@ Custom screen resolutions.
 ```bash
 # Generated Modelines for hi-dpi 3:2 aspect ratios at 60 Hz
 cvt 2256 1504 60
-# 
 cvt 2160 1440 60
-# 
 cvt 1920 1280 60
-# 
 
 # Manually add and test Modelines
 xrandr --newmode "2256x1504" 287.00  2256 2424 2664 3072  1504 1507 1517 1559 -hsync +vsync
